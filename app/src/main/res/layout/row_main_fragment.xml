@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_main_post"
+        xmlns:card="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        card:cardCornerRadius="4dp"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/tv_post_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HTML5 a tag download Attribute"
+                android:textSize="@dimen/all_post_tile"
+                android:background="@android:color/white"
+                android:textStyle="bold"
+                android:autoLink="none"
+                />
+           <WebView
+               android:id="@+id/wv_post_desc"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:autoLink="web"
+               android:layout_below="@+id/tv_post_title"/>
+            <!--<TextView
+                android:id="@+id/tv_post_desc"
+                android:text="In HTML5, you can download file when clicking on the link instead of redirecting to the file."
+                android:textSize="@dimen/all_post_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_post_title"
+                android:layout_marginTop="10dp"/>
+       -->    <!-- <LinearLayout
+                android:id="@+id/ll_post_footer"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wv_post_desc"
+                android:layout_marginTop="10dp">
+            </LinearLayout>-->
+
+            <!--<TextView
+                android:id="@+id/tv_main_post_date"
+                android:text="/ Feb 19,2016 "
+                android:textSize="@dimen/post_date_size"
+                android:textColor="@color/post_date_color"
+                android:layout_width="wrap_content"
+                android:autoLink="none"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_main_post_link"
+                android:text="/ Link "
+                android:textSize="@dimen/post_date_size"
+                android:textColor="@color/post_date_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="none"/>
+            <TextView
+                android:id="@+id/tv_main_post_tags"
+                android:text="/ HTML "
+                android:textSize="@dimen/post_date_size"
+                android:textColor="@color/post_date_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="none"/>
+            <TextView
+                android:id="@+id/tv_main_post_catagories"
+                android:text="/ anchor"
+                android:textSize="@dimen/post_date_size"
+                android:textColor="@color/post_date_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="none"/>
+-->
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

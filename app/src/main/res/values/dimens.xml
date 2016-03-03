@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="prof_image_size">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size">20dp</dimen>
+    <dimen name="all_post_tile">15dp</dimen>
+    <dimen name="all_post_content">10dp</dimen>
+    <dimen name="post_date_size">10dp</dimen>
+    <!--Single Post Size Details. -->
+
+    <dimen name="single_post_tile">20dp</dimen>
+    <dimen name="menu_icon_size">50dp</dimen>
+    <dimen name="margin_post_tile">20dp</dimen>
+    <dimen name="margin_left_post_tile">10dp</dimen>
+    <dimen name="margin_post_desc">10dp</dimen>
+    <dimen name="margin_left_post_desc">10dp</dimen>
+
+    <dimen name="txtsize">20dp</dimen>
+
+    <!--Line Size Details. -->
+    <dimen name="margin">10dp</dimen>
+    <!--Comment Details. -->
+    <dimen name="titleSize">20dp</dimen>
+    <dimen name="marginleft">10dp</dimen>
+    <dimen name="marginright">10dp</dimen>
+    <dimen name="margincomment">15dp</dimen>
+    <dimen name="paddingcomment">10dp</dimen>
+    <dimen name="buttontextsize">20dp</dimen>
+
+    <!-- View margin-->
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="marginViewLeft">20dp</dimen>
+    <dimen name="marginViewRight">20dp</dimen>
+</resources>

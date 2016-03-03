@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PostApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="post_desc"></string>
+    <string name="leavereply">Leave a Reply</string>
+    <string name="name">NAME*</string>
+    <string name="email">EMAIL*</string>
+    <string name="website">WEBSITE</string>
+    <string name="comment">COMMMENT*</string>
+    <string name="postcomment">POST COMMMENT</string>
+</resources>

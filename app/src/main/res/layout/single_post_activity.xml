@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tv_single_post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="HTML5 a tag download Attribute"
+        android:textSize="@dimen/single_post_tile"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_post_tile"
+        android:layout_marginLeft="@dimen/margin_left_post_tile"/>
+    <!--<org.sufficientlysecure.htmltextview.HtmlTextView
+
+        android:id="@+id/tv_single_post_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_post_desc"
+        android:layout_marginLeft="@dimen/margin_left_post_desc"/>
+    -->
+    <WebView
+        android:id="@+id/wv_single_post_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_margin="@dimen/margin"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_comment_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/leavereply"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/marginleft"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/marginleft"
+                android:layout_marginRight="@dimen/marginright"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/marginleft"
+                android:layout_marginRight="@dimen/marginright"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/website"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/marginleft"
+                android:layout_marginRight="@dimen/marginright"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_marginLeft="@dimen/margincomment"
+            android:layout_marginTop="@dimen/margincomment"
+            android:text="@string/comment"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:layout_marginLeft="@dimen/margincomment"
+            android:layout_marginRight="@dimen/margincomment"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="start"
+            android:background="@drawable/comment_rectangle"
+            />
+        <Button
+            android:id="@+id/bt_post_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/postcomment"
+            android:textSize="@dimen/buttontextsize"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:layout_margin="@dimen/margin"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
